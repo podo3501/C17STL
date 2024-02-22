@@ -9,13 +9,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1", "Chapter3\Projec
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project2", "Chapter3\Project2\Project2.vcxproj", "{7C017801-658E-4154-A757-C391C5EA160E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project3", "Project3\Project3.vcxproj", "{7E33AE62-3C5B-433A-A36B-2AD1D855FA7C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project3", "Chapter3\Project3\Project3.vcxproj", "{7E33AE62-3C5B-433A-A36B-2AD1D855FA7C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project4", "Project4\Project4.vcxproj", "{743506D5-706A-40D6-AB00-D2295801B674}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project4", "Chapter3\Project4\Project4.vcxproj", "{743506D5-706A-40D6-AB00-D2295801B674}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project5", "Project5\Project5.vcxproj", "{49032170-A3B4-4FD1-8D58-035FDA56D1F0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project5", "Chapter3\Project5\Project5.vcxproj", "{49032170-A3B4-4FD1-8D58-035FDA56D1F0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project6", "Project6\Project6.vcxproj", "{FE8F05F2-86A1-458D-897F-DE83C1069072}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project6", "Chapter3\Project6\Project6.vcxproj", "{FE8F05F2-86A1-458D-897F-DE83C1069072}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
