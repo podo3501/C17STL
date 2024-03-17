@@ -1,0 +1,4 @@
+Only visible in output.txt
+some output
+this function does really heavy work
+... and lots of it...
