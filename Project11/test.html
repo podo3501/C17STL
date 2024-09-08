@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<!-- saved from url=(0019)https://isocpp.org/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+            Standard C++
+    </title>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://isocpp.org/favicon.ico" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="https://isocpp.org/apple-touch-icon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://isocpp.org/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://isocpp.org/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://isocpp.org/apple-touch-icon-144.png">
+    <link href="./Standard C++_files/css" rel="stylesheet">
+    <link href="./Standard C++_files/app.css" rel="stylesheet" media="all" type="text/css">
+    <link href="./Standard C++_files/prettify.css" rel="stylesheet" media="all" type="text/css">
+
+    <script type="text/javascript" src="./Standard C++_files/prettify.min.js.다운로드"></script>    
+  </head>
+  
+  <body class="hide-sidebar">
+    <div id="root">
+    
+      <div id="crown">
+        <a id="sidebar-toggle" href="https://isocpp.org/#sidebar">Show sidebar »</a>
+        <ul class="user">
+                          <li><a href="https://isocpp.org/member/login">Sign In / Suggest an Article</a></li>
+          <li><a href="https://isocpp.org/member/register">Register</a></li>
+                </ul>
+      </div>
+
+      <header id="top" role="banner">
+        <div class="container">
+          <h1>
+            <a href="https://isocpp.org/"><img src="./Standard C++_files/cpp_logo.png" alt="Standard C++"></a>
+          </h1>
+          <nav role="navigation">
+            <ul id="nav-sub">
+<li class="first"><a href="https://isocpp.org/get-started">Get Started!</a></li>
+<li><a href="https://isocpp.org/tour">Tour</a></li>
+<li><a href="https://isocpp.org/guidelines">Core Guidelines</a></li>
+<li><a href="https://isocpp.org/faq">Super-FAQ</a></li>
+<li><a href="https://isocpp.org/std">Standardization</a></li>
+<li class="last"><a href="https://isocpp.org/about">About</a></li>
+</ul>
+          </nav><select id="nav-select"><option value="" selected="selected">Go to...</option><option value="https://isocpp.org/get-started">Get Started!</option><option value="https://isocpp.org/tour">Tour</option><option value="https://isocpp.org/guidelines">Core Guidelines</option><option value="https://isocpp.org/faq">Super-FAQ</option><option value="https://isocpp.org/std">Standardization</option><option value="https://isocpp.org/about">About</option></select>
+          <form action="https://isocpp.org/search/google">
+            <input type="text" name="q" id="q" maxlength="100" value="" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          <!--
+          <form method="post" action="https://isocpp.org/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="XID" value="ec9948b75ddeb4856e179271701d131547953f6a" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="YTo5OntzOjY6InN0YXR1cyI7czowOiIiO3M6NzoiY2hhbm5lbCI7czoxOToiYmxvZ3xwYWdlc3xmYXF8d2lraSI7czo4OiJjYXRlZ29yeSI7czowOiIiO3M6OToic2VhcmNoX2luIjtzOjEwOiJldmVyeXdoZXJlIjtzOjU6IndoZXJlIjtzOjM6ImFsbCI7czoxMjoic2hvd19leHBpcmVkIjtzOjA6IiI7czoxOToic2hvd19mdXR1cmVfZW50cmllcyI7YjowO3M6MTE6InJlc3VsdF9wYWdlIjtzOjE0OiJzZWFyY2gvcmVzdWx0cyI7czoxNToibm9fcmVzdWx0c19wYWdlIjtzOjE3OiJzZWFyY2gvbm9fcmVzdWx0cyI7fTNkZmE5MTM0YzRkODdjNWE2MDc5Y2YxZjA5OGYxOTRh" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+            <input type="text" name="keywords" id="keywords" maxlength="100" value="M50o93H7pQ09L8X1t49cHY01Z5j4TT91fGfr" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          -->
+        </div>
+      </header>
+
+      <div id="content" class="hide-sidebar" role="main">
+        <div class="container">
+
+
+<div id="sidebar">
+        <section>
+              <header>Features</header>
+            <div class="sidebar-section-content prettify">
+        <p>
+	<a href="https://isocpp.org/std/status">Current ISO C++ status</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://isocpp.org/std/meetings-and-participation/upcoming-meetings">Upcoming ISO C++ meetings</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://isocpp.org/wiki/faq/conferences-worldwide">Upcoming C++ conferences</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://en.cppreference.com/w/cpp/compiler_support">Compiler conformance status</a></p>
+      </div>
+    </section>
+  
+  
+  
+  <nav>
+    <section>
+      <header>Tags</header>
+      <p class="tags">
+      
+        <a href="https://isocpp.org/blog/tag/basics">basics</a>
+      
+        <a href="https://isocpp.org/blog/tag/intermediate">intermediate</a>
+      
+        <a href="https://isocpp.org/blog/tag/advanced">advanced</a>
+      
+        <a href="https://isocpp.org/blog/tag/experimental">experimental</a>
+      
+      </p>
+    </section>
+  </nav>
+    
+      <section>
+              <header>Upcoming Events</header>
+            <div class="sidebar-section-content">
+        <p>
+	<strong><a href="https://www.embo.io/">emBO++</a></strong></p>
+<p>
+	Mar 23-25, Bochum, Ger</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong><a href="https://accu.org/conf-main/main/">ACCU 2023</a></strong></p>
+<p>
+	Apr 19-22, Online and Bristol, UK</p>
+      </div>
+    </section>
+  
+      <section>
+              <header>Follow Us!</header>
+            <div class="sidebar-section-content">
+        <p>
+    <!-- Logo Design by Dominic Agoro-Ombaka http://agorodesign.com -->
+    <a href="https://twitter.com/isocpp"><img alt="Follow isocpp.org on Twitter" src="./Standard C++_files/isocpp-twitter-badge.svg"></a>
+</p>
+      </div>
+    </section>
+  
+</div>
+
+<div id="mainbar">
+
+  <header>
+    <h2>News, Status &amp; Discussion about Standard&nbsp;C++</h2>
+  </header>
+  
+  <article class="prettify intro">
+    <h3><a href="https://isocpp.org/blog">Follow All Posts</a><a href="https://isocpp.org/blog/rss" class="home-rss-icon">All Posts RSS</a></h3>
+    
+      <p>
+	<em>The home of Standard C++ on the web&nbsp;—&nbsp;news, status and discussion about the C++ standard on all compilers and platforms.</em></p>
+    
+  </article>
+  
+  <div class="home-column">
+  
+    <article class="prettify">
+      <h3><a href="https://isocpp.org/blog/category/news">Recent Highlights</a><a href="https://isocpp.org/blog/rss/category/news" class="home-rss-icon">News RSS</a></h3>
+      
+        <a href="https://isocpp.org/blog/2022/11/cpp-constexpr-parlor-tricks-obtain-the-length-of-a-string-at-compile-time-r" title="C++ constexpr parlor tricks: Obtain the length of a string at compile time -- Raymond Chen" class="cat-image">
+          <img alt="RaymondChen_5in-150x150.jpg" src="./Standard C++_files/RaymondChen_5in-150x150.jpg" style="width: 150px; margin: 10px; float: right;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/12/modern-cpp-in-depth-lambdas-part-1" class="title">Modern C++ In-Depth — Lambdas, Part 1</a>
+          <a href="https://isocpp.org/blog/2022/12/modern-cpp-in-depth-lambdas-part-1" class="byline">By Jens Maurer | Dec 6, 2022 06:08 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/12/2022-12-mailing-available" class="title">2022-12 Mailing Available</a>
+          <a href="https://isocpp.org/blog/2022/12/2022-12-mailing-available" class="byline">By Administrator | Dec 5, 2022 05:26 PM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/12/the-2023-call-for-speakers-opens" class="title">The 2023 Call for Speakers opens – C++ on Sea</a>
+          <a href="https://isocpp.org/blog/2022/12/the-2023-call-for-speakers-opens" class="byline">By philsquared | Dec 1, 2022 12:45 PM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/12/mike-shahs-modern-cpp-youtube-series" class="title">Mike Shah’s Modern C++ YouTube Series – Mike Shah</a>
+          <a href="https://isocpp.org/blog/2022/12/mike-shahs-modern-cpp-youtube-series" class="byline">By Mike Shah | Dec 1, 2022 12:43 PM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/first-videos-of-meeting-cpp-2022-released" class="title">First videos of Meeting C++ 2022 released</a>
+          <a href="https://isocpp.org/blog/2022/11/first-videos-of-meeting-cpp-2022-released" class="byline">By Meeting C++ | Nov 23, 2022 04:08 AM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+    <article class="prettify">
+      <h3><a href="https://isocpp.org/blog/category/articles-books">Articles &amp; Books</a><a href="https://isocpp.org/blog/rss/category/articles-books" class="home-rss-icon">Articles &amp; Books RSS</a></h3>
+      
+        <a href="https://isocpp.org/blog/2022/11/cpp-constexpr-parlor-tricks-obtain-the-length-of-a-string-at-compile-time-r" title="C++ constexpr parlor tricks: Obtain the length of a string at compile time -- Raymond Chen" class="cat-image">
+          <img alt="RaymondChen_5in-150x150.jpg" src="./Standard C++_files/RaymondChen_5in-150x150.jpg" style="width: 150px; margin: 10px; float: right;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/12/modern-cpp-in-depth-lambdas-part-1" class="title">Modern C++ In-Depth — Lambdas, Part 1</a>
+          <a href="https://isocpp.org/blog/2022/12/modern-cpp-in-depth-lambdas-part-1" class="byline">By Jens Maurer | Dec 6, 2022 06:08 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/cpp-constexpr-parlor-tricks-obtain-the-length-of-a-string-at-compile-time-r" class="title">C++ constexpr parlor tricks: Obtain the length of a string at compile time – Raymond Chen</a>
+          <a href="https://isocpp.org/blog/2022/11/cpp-constexpr-parlor-tricks-obtain-the-length-of-a-string-at-compile-time-r" class="byline">By Blog Staff | Nov 16, 2022 07:37 PM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/the-proxy-pattern-rainer-grimm" class="title">The Proxy Pattern – Rainer Grimm</a>
+          <a href="https://isocpp.org/blog/2022/11/the-proxy-pattern-rainer-grimm" class="byline">By Blog Staff | Nov 16, 2022 07:35 PM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/using-final-in-cpp-to-improve-performance-niall-cooling" class="title">Using final in C++ to improve performance – Niall Cooling</a>
+          <a href="https://isocpp.org/blog/2022/11/using-final-in-cpp-to-improve-performance-niall-cooling" class="byline">By Blog Staff | Nov 16, 2022 07:27 PM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/for-software-performance-the-way-data-is-accessed-matters-ivica-bogosavljev" class="title">For Software Performance, the Way Data is Accessed Matters! – Ivica Bogosavljević</a>
+          <a href="https://isocpp.org/blog/2022/11/for-software-performance-the-way-data-is-accessed-matters-ivica-bogosavljev" class="byline">By Blog Staff | Nov 12, 2022 06:01 PM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+    <article class="prettify">
+      <h3><a href="https://isocpp.org/blog/category/events">Events</a><a href="https://isocpp.org/blog/rss/category/events" class="home-rss-icon">Events RSS</a></h3>
+      
+        <a href="https://isocpp.org/blog/2022/11/bjarne-stroustrup-live-online-on-nov-15-what-is-good-cpp-code" title="Bjarne Stroustrup live online on Nov 15: &quot;What is good C++ code?&quot;" class="cat-image">
+          <img alt="Screenshot_2022-11-12_113437.png" src="./Standard C++_files/Screenshot_2022-11-12_113437.png" style="width: 400px; margin: 10px; float: right;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/12/the-2023-call-for-speakers-opens" class="title">The 2023 Call for Speakers opens – C++ on Sea</a>
+          <a href="https://isocpp.org/blog/2022/12/the-2023-call-for-speakers-opens" class="byline">By philsquared | Dec 1, 2022 12:45 PM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/first-videos-of-meeting-cpp-2022-released" class="title">First videos of Meeting C++ 2022 released</a>
+          <a href="https://isocpp.org/blog/2022/11/first-videos-of-meeting-cpp-2022-released" class="byline">By Meeting C++ | Nov 23, 2022 04:08 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/the-power-of-clean-cpp" class="title">The Power of Clean C++ – SonarSource</a>
+          <a href="https://isocpp.org/blog/2022/11/the-power-of-clean-cpp" class="byline">By philsquared | Nov 21, 2022 09:13 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/bjarne-stroustrup-live-online-on-nov-15-what-is-good-cpp-code" class="title">Bjarne Stroustrup live online on Nov 15: “What is good C++ code?”</a>
+          <a href="https://isocpp.org/blog/2022/11/bjarne-stroustrup-live-online-on-nov-15-what-is-good-cpp-code" class="byline">By Blog Staff | Nov 12, 2022 02:30 PM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/10/cpp-on-sea-2023" class="title">C++ on Sea 2023</a>
+          <a href="https://isocpp.org/blog/2022/10/cpp-on-sea-2023" class="byline">By philsquared | Oct 27, 2022 11:59 AM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+    <article class="prettify">
+      <h3><a href="https://isocpp.org/blog/category/training">Training</a><a href="https://isocpp.org/blog/rss/category/training" class="home-rss-icon">Training RSS</a></h3>
+      
+        <a href="https://isocpp.org/blog/2021/07/cppcon-announces-academy-classes-on-site-and-on-line-training-jon-kalb" title="CppCon announces Academy classes (on-site and on-line training) -- Jon Kalb" class="cat-image">
+          <img alt="cppcon-2021-academy.png" src="./Standard C++_files/cppcon-2021-academy.png" style="width: 296px; margin: 10px; float: right;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/the-power-of-clean-cpp" class="title">The Power of Clean C++ – SonarSource</a>
+          <a href="https://isocpp.org/blog/2022/11/the-power-of-clean-cpp" class="byline">By philsquared | Nov 21, 2022 09:13 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/04/mixins-rainer-grimm" class="title">Mixins–Rainer Grimm</a>
+          <a href="https://isocpp.org/blog/2022/04/mixins-rainer-grimm" class="byline">By Adrien Hamelin | Apr 21, 2022 10:38 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/03/pre-conference-workshops-at-cpp-on-sea-2022" class="title">Pre-conference workshops at C++ on Sea 2022</a>
+          <a href="https://isocpp.org/blog/2022/03/pre-conference-workshops-at-cpp-on-sea-2022" class="byline">By philsquared | Mar 24, 2022 01:09 PM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/03/all-cpp-on-sea-tickets-now-available" class="title">All C++ on Sea tickets now available</a>
+          <a href="https://isocpp.org/blog/2022/03/all-cpp-on-sea-tickets-now-available" class="byline">By philsquared | Mar 24, 2022 10:51 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/02/more-information-about-my-mentoring-program-fundamentals-for-cpp-profession" class="title">More Information about my Mentoring Program “Fundamentals for C++ Professionals"–Rainer Grimm</a>
+          <a href="https://isocpp.org/blog/2022/02/more-information-about-my-mentoring-program-fundamentals-for-cpp-profession" class="byline">By Adrien Hamelin | Feb 23, 2022 02:50 PM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+  </div>
+  
+  <div class="home-column">
+  
+
+
+
+    <article class="prettify shaded">
+        
+
+
+<h3>Recent Cpp.Chat Podcasts <a href="https://feeds.feedburner.com/CppChat" class="home-rss-icon">Feed</a></h3>
+
+<ul>
+    <li>
+                <a class="title" href="https://cpp.chat/84">The Curse of Backwards Compatibility</a>
+        <a class="byline" href="https://cpp.chat/84">Date: Fri, 11 Feb 2022 00:00:00 +0000</a>
+    </li>
+</ul>
+
+
+<h3>Recent C++ Weekly Podcasts <a href="https://feeds.feedburner.com/CppWeekly" class="home-rss-icon">Feed</a></h3>
+
+<ul>
+    <li>
+                <a class="title" href="https://www.youtube.com/watch?v=T97QJ0KBaBU">Implicit Conversions Are Evil</a>
+        <a class="byline" href="https://www.youtube.com/watch?v=T97QJ0KBaBU">Date: Mon, 5 Dec 2022 16:29:48 GMT</a>
+    </li>
+    <li>
+                <a class="title" href="https://www.youtube.com/watch?v=Is1MurHeZvg">Not Doing This Should Be Illegal! (Always Fuzz Your C++!)</a>
+        <a class="byline" href="https://www.youtube.com/watch?v=Is1MurHeZvg">Date: Mon, 28 Nov 2022 16:29:46 GMT</a>
+    </li>
+    <li>
+                <a class="title" href="https://www.youtube.com/watch?v=287_oG4CNMc">Your 5 Step Plan For Deeper C++ Knowledge</a>
+        <a class="byline" href="https://www.youtube.com/watch?v=287_oG4CNMc">Date: Mon, 21 Nov 2022 16:29:46 GMT</a>
+    </li>
+    <li>
+                <a class="title" href="https://www.youtube.com/watch?v=q7Gv4J3FyYE">The Right Way to Write C++ Code in 2022</a>
+        <a class="byline" href="https://www.youtube.com/watch?v=q7Gv4J3FyYE">Date: Mon, 14 Nov 2022 16:29:49 GMT</a>
+    </li>
+</ul>
+
+
+
+<h3>Recent ‘No Diagnostic Required’ Podcasts <a href="https://nodiagnosticrequired.tv/" class="home-rss-icon">Feed</a></h3>
+
+<ul>
+    <li>
+        <a class="title" href="https://nodiagnosticrequired.tv/episodes/14">Episode #14 - January 2022</a>
+        <a class="byline" href="https://nodiagnosticrequired.tv/episodes/14">Date: Wed, 16 Feb 2022 00:00:00 +0000</a>
+    </li>
+</ul>
+
+    </article>
+    
+
+
+    
+    <article class="prettify">
+      <h3><a href="https://isocpp.org/blog/category/product-news">Product News</a><a href="https://isocpp.org/blog/rss/category/product-news" class="home-rss-icon">Product News RSS</a></h3>
+      
+        <a href="https://isocpp.org/blog/2022/11/whats-new-for-cpp-developers-in-visual-studio-2022-17.4-sy-brand" title="What&#39;s New for C++ Developers in Visual Studio 2022 17.4 -- Sy Brand" class="cat-image">
+          <img alt="syroof-150x150.jpg" src="./Standard C++_files/syroof-150x150.jpg" style="width: 150px; margin: 10px; float: right;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/whats-new-for-cpp-developers-in-visual-studio-2022-17.4-sy-brand" class="title">What’s New for C++ Developers in Visual Studio 2022 17.4 – Sy Brand</a>
+          <a href="https://isocpp.org/blog/2022/11/whats-new-for-cpp-developers-in-visual-studio-2022-17.4-sy-brand" class="byline">By Blog Staff | Nov 11, 2022 11:25 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/fossa-is-announcing-the-ga-of-a-security-and-license-scanning-capability-fo" class="title">FOSSA is announcing the GA of a security and license scanning capability for C and C++ projects</a>
+          <a href="https://isocpp.org/blog/2022/11/fossa-is-announcing-the-ga-of-a-security-and-license-scanning-capability-fo" class="byline">By Jordi Mon Companys | Nov 1, 2022 11:43 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/10/examples-of-errors-that-pvs-studio-found-in-llvm-15.0" class="title">Examples of errors that PVS-Studio found in LLVM 15.0</a>
+          <a href="https://isocpp.org/blog/2022/10/examples-of-errors-that-pvs-studio-found-in-llvm-15.0" class="byline">By Andrey Karpov | Oct 25, 2022 09:14 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/10/improving-copy-and-move-elision-bran-hagger" class="title">Improving copy and move elision - Bran Hagger</a>
+          <a href="https://isocpp.org/blog/2022/10/improving-copy-and-move-elision-bran-hagger" class="byline">By Blog Staff | Oct 24, 2022 12:51 PM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/10/pvs-studio-7.21-gitlab-code-quality-unreal-engine" class="title">PVS-Studio 7.21: GitLab Code Quality, Unreal Engine</a>
+          <a href="https://isocpp.org/blog/2022/10/pvs-studio-7.21-gitlab-code-quality-unreal-engine" class="byline">By Andrey Karpov | Oct 19, 2022 06:49 AM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+    <article class="prettify">
+      <h3><a href="https://isocpp.org/blog/category/video-on-demand">Video &amp; On-Demand</a><a href="https://isocpp.org/blog/rss/category/video-on-demand" class="home-rss-icon">Video &amp; On-Demand RSS</a></h3>
+      
+        <a href="https://isocpp.org/blog/2022/10/cppcon-2022-online-opening-keynote-on-cpp-math-lisa-lippincott" title="CppCon 2022 online opening keynote on C++ Math: Lisa Lippincott" class="cat-image">
+          <img alt="lippincott-2022.png" src="./Standard C++_files/lippincott-2022.png" style="width: 303px; margin: 10px; float: right;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/12/mike-shahs-modern-cpp-youtube-series" class="title">Mike Shah’s Modern C++ YouTube Series – Mike Shah</a>
+          <a href="https://isocpp.org/blog/2022/12/mike-shahs-modern-cpp-youtube-series" class="byline">By Mike Shah | Dec 1, 2022 12:43 PM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/first-videos-of-meeting-cpp-2022-released" class="title">First videos of Meeting C++ 2022 released</a>
+          <a href="https://isocpp.org/blog/2022/11/first-videos-of-meeting-cpp-2022-released" class="byline">By Meeting C++ | Nov 23, 2022 04:08 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/the-power-of-clean-cpp" class="title">The Power of Clean C++ – SonarSource</a>
+          <a href="https://isocpp.org/blog/2022/11/the-power-of-clean-cpp" class="byline">By philsquared | Nov 21, 2022 09:13 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/messaging-with-0mq-zeromq" class="title">Messaging with 0MQ (ZeroMQ) – Richard Thomson</a>
+          <a href="https://isocpp.org/blog/2022/11/messaging-with-0mq-zeromq" class="byline">By Legalize Adulthood | Nov 21, 2022 09:12 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/11/copperspice-comparison-operators-breaking-change-in-cpp20" class="title">CopperSpice: Comparison Operators: Breaking Change in C++20</a>
+          <a href="https://isocpp.org/blog/2022/11/copperspice-comparison-operators-breaking-change-in-cpp20" class="byline">By Ansel Sermersheim | Nov 8, 2022 11:45 AM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+    <article class="prettify">
+      <h3><a href="https://isocpp.org/blog/category/standardization">Standardization</a><a href="https://isocpp.org/blog/rss/category/standardization" class="home-rss-icon">Standardization RSS</a></h3>
+      
+        <a href="https://isocpp.org/blog/2021/04/d2349-stdpony-ville-voutilainen" title="D2349: std::pony -- Ville Voutilainen" class="cat-image">
+          <img alt="" src="./Standard C++_files/logo.png" style="width: 128px; height: 128px; float: right;">
+        </a>
+      
+      <ul>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/12/2022-12-mailing-available" class="title">2022-12 Mailing Available</a>
+          <a href="https://isocpp.org/blog/2022/12/2022-12-mailing-available" class="byline">By Administrator | Dec 5, 2022 05:26 PM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/09/2022-09-mailing-available" class="title">2022-09 Mailing Available</a>
+          <a href="https://isocpp.org/blog/2022/09/2022-09-mailing-available" class="byline">By Administrator | Sep 23, 2022 08:01 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/08/2022-08-mailing-available" class="title">2022-08 Mailing Available</a>
+          <a href="https://isocpp.org/blog/2022/08/2022-08-mailing-available" class="byline">By Administrator | Aug 22, 2022 09:08 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/08/july-2022-iso-cpp-committee-virtual-meeting-report" class="title">July 2022 ISO C++ committee virtual meeting report – Timur Doumler</a>
+          <a href="https://isocpp.org/blog/2022/08/july-2022-iso-cpp-committee-virtual-meeting-report" class="byline">By Timur Doumler | Aug 10, 2022 10:05 AM</a>
+        </li>
+      
+        <li>
+          <a href="https://isocpp.org/blog/2022/07/2022-07-mailing-available" class="title">2022-07 Mailing Available</a>
+          <a href="https://isocpp.org/blog/2022/07/2022-07-mailing-available" class="byline">By Administrator | Jul 21, 2022 01:40 PM</a>
+        </li>
+      
+      </ul>
+    </article>
+    
+  </div>
+
+  <footer>
+    <div class="back-to-top">
+      <a href="https://isocpp.org/#">Back to Top</a>
+    </div>
+  </footer>
+
+</div>
+
+        </div>
+        
+        <div id="root-footer"></div>
+      </div>
+    </div>
+
+    <footer id="bottom" role="contentinfo">
+      <div class="container">
+        © <a href="https://isocpp.org/home/terms-of-use">Copyright</a> 2022 Standard C++ Foundation. 
+        All rights reserved.
+        <ul id="nav-sub">
+<li class="first"><a href="https://isocpp.org/home/terms-of-use">Terms of Use</a></li>
+<li class="last"><a href="https://isocpp.org/home/privacy-policy">Privacy Policy</a></li>
+</ul>
+        <br>Hosted by <a href="https://m.do.co/c/32f291566cf7" target="_blank">DigitalOcean</a>
+      </div>
+    </footer>
+
+    <script src="./Standard C++_files/jquery.min.js.다운로드"></script>
+    <script>window.jQuery || document.write('<script src="https://isocpp.org/javascript/jquery.min"><\/script>')</script>
+    <script src="./Standard C++_files/jquery-ui.min.js.다운로드"></script>
+    <script>window.jQuery.ui || document.write('<script src="https://isocpp.org/javascript/jquery-ui.min"><\/script>')</script>
+    
+    <script type="text/javascript" charset="utf-8" src="./Standard C++_files/saved_resource"></script>
+    <script type="text/javascript">
+	        					$(document).ready(function() {
+									$("*[id^=likee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										
+										$.ajax({
+	   										type: "POST",
+	   										url: "/",
+	   										data: "likee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#dislikee_"+c+id).replaceWith("<span>"+$("#dislikee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())+1);
+	 									$("#likeeCount_"+c+id).html(parseInt($("#likeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+									
+									$("*[id^=dislikee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										$.ajax({
+	   										type: "POST",
+	   										url: "/",
+	   										data: "dislikee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#likee_"+c+id).replaceWith("<span>"+$("#likee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())-1);
+	 									$("#dislikeeCount_"+c+id).html(parseInt($("#dislikeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+								
+								});	
+	        			  </script>
+    
+    <script type="text/javascript" src="./Standard C++_files/isocpp.lib.min.js.다운로드"></script>
+    <script type="text/javascript" src="./Standard C++_files/global.js.다운로드"></script>
+
+        
+    <script type="text/javascript">
+      $("#top nav a").each(function() {
+        var aSeg1 = $(this).attr("href").replace("http://", "").replace("https://", "").split("/")[1];
+        if (aSeg1 == "") {$(this).parent().addClass("here");}
+      });
+    </script>
+
+  
+</body></html>
